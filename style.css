@@ -1,0 +1,121 @@
+body {
+  
+    margin: 0px;
+    
+}
+
+
+.margin{
+    
+    margin-bottom: 30px;
+}
+
+
+.content {
+    
+    animation: anime 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    
+    background-image: url(./fundodetelamelhor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+
+.content:hover{
+    
+    background-image: url(./Images/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: justify;
+    
+}
+
+
+a {
+    margin-left: 50px;
+    color:goldenrod ;
+    font-family: 'Rancho', cursive;
+    border: solid goldenrod 5px;
+    padding: 10px;
+    background-color: darkred;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+p {
+    
+    font-family: 'Rancho', cursive;;
+    color: goldenrod;
+    padding:  16px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 125px;
+    background-color: darkred;
+    border: solid goldenrod 8px;
+    border-radius: 18px;
+    margin-bottom: 30px;  
+   
+}
+
+h1 {
+
+    
+    margin-inline-start: auto;
+    margin-top: 0px;
+    color: goldenrod;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    border: 5px solid goldenrod;
+    padding: 50px;
+    margin-bottom: 100px;
+    margin-left: 125px;
+    margin-right: 125px;
+    flex-direction: row;
+    border-radius: 18px;
+    background-image: url(./titleimage2.jpg);
+    background-position: center;
+    background-size: top;
+
+}
+
+h3 {
+    
+    border-radius: 18px;
+    color:goldenrod;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border: 10px solid goldenrod;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: 950px;
+    margin-left: 50px;
+    background-color: darkred;
+
+}
+
+h5 {
+    
+    background-color: darkred;
+    border: 5px solid goldenrod;
+    color:goldenrod;
+    font-family: 'Rancho', cursive;
+    margin-left: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 1130px;
+    text-align: center;
+
+}
+
+img {
+    
+    margin-left: 50px;
+
+}
